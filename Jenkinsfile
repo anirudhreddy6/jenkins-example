@@ -2,6 +2,14 @@ pipeline {
     agent any
 
     stages {
+        stage ('Display Direcotry') {
+
+                    steps {
+
+                            sh 'pwd'
+
+                    }
+
         stage ('Compile Stage') {
 
             steps {
