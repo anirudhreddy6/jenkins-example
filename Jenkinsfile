@@ -9,6 +9,7 @@ pipeline {
                             sh 'pwd'
 
                     }
+                    }
 
         stage ('Compile Stage') {
 
