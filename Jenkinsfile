@@ -2,6 +2,14 @@ pipeline {
     agent any
 
     stages {
+    stage ('Display s3') {
+
+                        steps {
+
+                                sh 'aws s3 ls'
+
+                        }
+                        }
         stage ('Display Direcotry') {
 
                     steps {
