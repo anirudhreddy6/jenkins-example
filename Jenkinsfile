@@ -6,7 +6,7 @@ pipeline {
 
                         steps {
 
-                                sh 'echo $PATH'
+                                sh 'aws s3 ls'
 
                         }
                         }
